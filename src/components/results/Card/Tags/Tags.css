@@ -1,0 +1,21 @@
+
+.tags-container {
+    position: absolute;
+    width: 40%;
+    left: 10px;
+    bottom: 10px;
+    height: 40%;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.tags-container p {
+    background-color: var(--accent-solid-color);
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: start;
+}
+
+.tags-container p:hover {
+    opacity: 0.5;
+}

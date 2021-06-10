@@ -1,0 +1,24 @@
+
+.sorting-button-container {
+    height: 100%;
+    width: 90px;
+    display: flex;
+    border-radius: 10px;
+    background-color: var(--accent-solid-color);
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 0.5rem;
+}
+
+.inner-sorting-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-opaque-color);
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+}
+

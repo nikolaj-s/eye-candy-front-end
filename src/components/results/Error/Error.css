@@ -1,0 +1,25 @@
+
+.error-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.inner-error-container {
+    transform: translateY(-150%);
+
+}
+.inner-error-container h3 {
+    font-size: 2rem;
+    max-width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

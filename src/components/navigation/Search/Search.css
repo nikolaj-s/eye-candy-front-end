@@ -1,0 +1,43 @@
+.input-container {
+    background-color: var(--accent-solid-color);
+    border-radius: 10px;
+    width: auto;
+    flex-grow: 1;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 10px;
+}
+
+.input-container input {
+    width: 96%;
+    padding: 0 1%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--accent-opaque-color);
+    height: 80%;
+    font-size: 2rem;
+    font-family: 'Lora', sans-serif;
+}
+.mobile-menu-container {
+    display: none;
+}
+.search-button {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search-button svg {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}

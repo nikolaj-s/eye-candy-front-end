@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+  max-height: 100vh;
+  width: 100%;
+  max-width: 1700px;
+  overflow-x: hidden;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media only screen and (min-width: 500px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar:hover {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    opacity: 0;
+    display: none;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 6px rgb(99, 99, 99); 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: solid 2px rgb(116, 116, 116);
+    background-color: var(--accent-solid-color);
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

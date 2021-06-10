@@ -1,0 +1,21 @@
+
+.width-height-expanded-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: auto;
+    padding: 0 10px;
+    background-color: var(--accent-solid-color);
+    border-radius: 10px;
+}
+
+.width-height-expanded-container p {
+    padding: 1.7rem 0.5rem;
+    background-color: var(--accent-opaque-color);
+    border-radius: 10px;
+    
+}

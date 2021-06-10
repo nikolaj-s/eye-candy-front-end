@@ -1,0 +1,31 @@
+.nsfw-toggle-container {
+    width: 15%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--accent-solid-color);
+}
+
+.nsfw-toggle-container div {
+    background-color: var(--accent-opaque-color);
+    border-radius: 10px;
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nsfw-toggle-container div h1 {
+    font-size: 1.5rem;
+    opacity: 0.8;
+    cursor: pointer;
+    margin: 0;
+}
+
+.nsfw-toggle-container div h1:hover {
+    opacity: 1;
+}
